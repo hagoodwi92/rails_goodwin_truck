@@ -1,24 +1,30 @@
 # README
+This project is a ruby on rails app that displays truck brand, and their associated models.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Endpoints
+- [x] GET- /brands, /brands/:id, /brands/:id/review/:id 
+- [x] POST- /brands/, /models/
+- [x] PUT- /brands/:id, /models/:id
+- [x] DELETE- /brands/:id, /models/:id
 
-Things you may want to cover:
+Setup/Installation
+1. `$ git clone` [this repository]
+2. `$ cd rails_goodwin_truck`
+3. `$ bundle install`
+4. `$ rails db:create`
+5. `$ rails db:migrate`
+6. `$ rails s` to start the server 
 
-* Ruby version
+Known Bugs
+- No known bugs at this time. 
 
-* System dependencies
+Technologies used
+- Ruby on Rails
+- ActiveRecord
 
-* Configuration
+Support
+- Contact hagoodwi@gmail.com for support. 
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+License 
+- {This software is licensed under the MIT license}
+- Copyright (c) 2020 {Alex Goodwin}
