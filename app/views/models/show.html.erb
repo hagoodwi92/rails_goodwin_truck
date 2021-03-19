@@ -1,0 +1,10 @@
+<h1>Model: <%= @model.name %> </h1> 
+<h1>Brand: <%= @brand.name %> </h1> 
+<p>Year Model: <%= @model.year %></p>
+
+<p><%= link_to "Edit model", edit_brand_model_path(@brand, @model) %></p>
+<p><%= link_to "Delete model", brand_model_path(@brand, @model),
+                        :data => {:confirm => "Are you sure?",
+                                       :method => "delete"} %></p>
+
+<p><%= link_to "Return to brand", brand_path(@brand) %></p>
